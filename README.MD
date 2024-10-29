@@ -1,5 +1,5 @@
 информация о том, как запустить контейнер и проверить работу веб-приложения:
 
-docker build -t testdocker . – собирает образ
-docker run -d -p 8000:8000 testdocker – запускает контейнер
-http://localhost:8000/ping/ - ссылка, для просмотра результата
+1. docker build -t testdocker . – собирает образ
+2. docker run -d -p 8000:8000 testdocker – запускает контейнер
+3. http://localhost:8000/ping/ - ссылка, для просмотра результата
