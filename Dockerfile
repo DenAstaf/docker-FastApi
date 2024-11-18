@@ -1,8 +1,3 @@
-# информация о том, как запустить контейнер
-# docker build -t testdocker . – собирает образ
-# docker run -d -p 8000:8000 testdocker – запускает контейнер
-# http://localhost:8000/ping/ - ссылка, для просмотра результата
-
 # Указываем базовый Python
 FROM python:3.11.9
 
